@@ -3,18 +3,18 @@ Made by Team55 Advisor: Prof. Homayoun Yousefi'zadeh
 
 1.7 Java JDK *important!
 
-Porject Task:
+# Porject Task:
 
-SetUp Maven Spring: Done--Shuai Zheng
+# SetUp Maven Spring: Done--Shuai Zheng
 
-Implement ProGuard to JSP:
+# ProGuard:
 
-Or other open source for Obfusition:
+# Or other open source for Obfusition:
 
-UI:
+# UI:
 
-Database:
+# Database:
 
-Write Usage:
+# Write Usage:
 
 
