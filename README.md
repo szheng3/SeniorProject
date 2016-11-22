@@ -5,7 +5,7 @@ Made by Team55 Advisor: Prof. Homayoun Yousefi'zadeh
 
 Porject Task:
 
-SetUp: Done--Shuai Zheng
+SetUp Maven Spring: Done--Shuai Zheng
 
 ProGuard:
 
