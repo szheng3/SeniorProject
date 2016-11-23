@@ -7,12 +7,11 @@ Made by Team55 Advisor: Prof. Homayoun Yousefi'zadeh
 
  SetUp Maven Spring: Done--Shuai Zheng
 
-Upload File: Done-- Alex, Shuai Zheng
+Upload File, GetFileName(File in the Jboss Container): Done-- Alex, Shuai Zheng
 
 **Next:**
 
-get the name of the file
-
+Write Pro file using Java
 
  ProGuard:
 
