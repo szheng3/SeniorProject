@@ -21,7 +21,7 @@ public class FileUploadHandler extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
+        request.getSession().setMaxInactiveInterval(1440);
         //process only if its multipart content
         if (ServletFileUpload.isMultipartContent(request)) {
             try {
@@ -30,8 +30,15 @@ public class FileUploadHandler extends HttpServlet {
 
                 for (FileItem item : multiparts) {
                     if (!item.isFormField()) {
-                        System.out.println(request.getServletContext().getRealPath("") + File.separator + new File(item.getName()).getName());
-                        item.write(new File(request.getServletContext().getRealPath("") + File.separator + new File(item.getName()).getName()));
+                        item.write(new File(request.getSession().getServletContext().getRealPath("") + File.separator + new File(item.getName()).getName()));
+                        ProOut Profile = new ProOut();
+                        Profile.ProFileOutApplication(request.getSession().getServletContext().getRealPath(""), new File(item.getName()).getName());
+                        String[] args = new String[2];
+                        args[0] = "@" + request.getSession().getServletContext().getRealPath("") + File.separator + "proguard.pro";
+                        Main Obfusacate = new Main();
+                        Obfusacate.obfuscation(args);
+
+
                     }
                 }
 
@@ -45,6 +52,7 @@ public class FileUploadHandler extends HttpServlet {
             request.setAttribute("message",
                     "Sorry this Servlet only handles file upload request");
         }
+
 
         request.getRequestDispatcher("/WEB-INF/pages/result.jsp").forward(request, response);
 
