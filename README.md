@@ -3,9 +3,11 @@ Made by Team55 Advisor: Prof. Homayoun Yousefi'zadeh
 
 1.7 Java JDK *important!
 
- Porject Task:
+ **Porject Task:**
 
  SetUp Maven Spring: Done--Shuai Zheng
+
+Upload File: Done--Need to change Path. Alex, Shuai Zheng
 
  ProGuard:
 
