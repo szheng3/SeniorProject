@@ -7,7 +7,12 @@ Made by Team55 Advisor: Prof. Homayoun Yousefi'zadeh
 
  SetUp Maven Spring: Done--Shuai Zheng
 
-Upload File: Done--Need to change Path. Alex, Shuai Zheng
+Upload File: Done-- Alex, Shuai Zheng
+
+**Next:**
+
+get the name of the file
+
 
  ProGuard:
 
