@@ -9,11 +9,16 @@ Made by Team55 Advisor: Prof. Homayoun Yousefi'zadeh
 
 Upload File, GetFileName(File in the Jboss Container): Done-- Alex, Shuai Zheng
 
+Write Pro file using Java:Done--Shuai Zheng
+
+Obfuscation For Application:Done-Shuai Zheng
+
+Error: Timeout need to fix.
+
 **Next:**
 
-Write Pro file using Java
 
- ProGuard:
+ ProGuard for lib:
 
  Or other open source for Obfusition:
 
