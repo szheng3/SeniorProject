@@ -31,12 +31,15 @@ public class FileUploadHandler extends HttpServlet {
                 for (FileItem item : multiparts) {
                     if (!item.isFormField()) {
                         item.write(new File(request.getSession().getServletContext().getRealPath("") + File.separator + new File(item.getName()).getName()));
-                        ProOut Profile = new ProOut();
-                        Profile.ProFileOutApplication(request.getSession().getServletContext().getRealPath(""), new File(item.getName()).getName());
-                        String[] args = new String[2];
-                        args[0] = "@" + request.getSession().getServletContext().getRealPath("") + File.separator + "proguard.pro";
-                        Main Obfusacate = new Main();
-                        Obfusacate.obfuscation(args);
+//                        ProOut Profile = new ProOut();
+//                        Profile.ProFileOutApplication(request.getSession().getServletContext().getRealPath(""), new File(item.getName()).getName());
+//                        String[] args = new String[2];
+//                        args[0] = "@" + request.getSession().getServletContext().getRealPath("") + File.separator + "proguard.pro";
+//                        Main Obfusacate = new Main();
+//                        Obfusacate.obfuscation(args);
+//                        request.setAttribute("download", request.getSession().getServletContext().getRealPath("") + File.separator + "obfuscation_out.jar");
+//                        request.getRequestDispatcher(request.getSession().getServletContext().getRealPath("") + File.separator + "obfuscation_out.jar").forward(request, response);
+
 
                     }
                 }

@@ -11,9 +11,9 @@ Upload File, GetFileName(File in the Jboss Container): Done--  Shuai Zheng
 
 Write Pro file using Java:Done--Shuai Zheng
 
-Obfuscation For Application:Done-Shuai Zheng
+Obfuscation For Application:Done--Shuai Zheng
 
-Timeout need to fix:Done-Shuai Zheng
+Timeout need to fix:Done--Shuai Zheng
 
 **Next:**
 
