@@ -12,9 +12,7 @@ public class ProOut {
 
         try {
             PrintWriter writer = new PrintWriter(Path + File.separator + "proguard.pro", "UTF-8");
-            //need to be fixed in the windows
             writer.println("-injars " + Filename);
-            //need to be fixed
             writer.println("-outjars obfuscation_out.jar");
             //need to be fixed in the windows
             writer.println("-libraryjars <java.home>/lib/rt.jar");
