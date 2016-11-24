@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5341401-016a-4dc4-8220-e520c044275d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SeniorProject.war" afterPath="$PROJECT_DIR$/target/SeniorProject.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springTeam55UCI/mvc/FileUploadHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/springTeam55UCI/mvc/FileUploadHandler.java" />
     </list>
     <ignored path="SeniorProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,8 +61,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="75">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -1231,7 +1228,7 @@
       <workItem from="1479890144494" duration="273000" />
       <workItem from="1479890445450" duration="11263000" />
       <workItem from="1479943527415" duration="402000" />
-      <workItem from="1479943965130" duration="5260000" />
+      <workItem from="1479943965130" duration="5499000" />
     </task>
     <task id="LOCAL-00001" summary="Added Upload ~">
       <created>1479890802939</created>
@@ -1324,11 +1321,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479946603816</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added gitignore">
+      <created>1479957642788</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1479957642788</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28897000" />
+    <option name="totallyTimeSpent" value="29136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1384,7 +1388,8 @@
     <MESSAGE value="Upload data to the real path, begining to work on write Path file." />
     <MESSAGE value="Done obfucation. Need to fix progress." />
     <MESSAGE value="Done obfucation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Done obfucation." />
+    <MESSAGE value="Added gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added gitignore" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1765,8 +1770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="75">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding />
         </state>
       </provider>
