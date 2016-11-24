@@ -14,6 +14,15 @@
         <url-pattern>/upload</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>UploadServlet</servlet-name>
+        <servlet-class>com.filehandlers.servlets.UploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadServlet</servlet-name>
+        <url-pattern>/UploadServlet</url-pattern>
+    </servlet-mapping>
+
     <session-config>
         <session-timeout>
             1440
@@ -21,7 +30,8 @@
     </session-config>
 
     <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
+        <!--<welcome-file>index.jsp</welcome-file>-->
+        <welcome-file>upload.jsp</welcome-file>
     </welcome-file-list>
 
 </web-app>
