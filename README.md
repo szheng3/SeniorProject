@@ -1,3 +1,6 @@
+# Branch: branchByAlex
+On this branch, I am making changes so that my installation will work with Shuai's.
+
 # SeniorProject
 Made by Team55 Advisor: Prof. Homayoun Yousefi'zadeh
 
@@ -20,7 +23,7 @@ Timeout need to fix:Done--Shuai Zheng
 
  ProGuard for lib:
 
- Or other open source for Obfusition:
+ Or other open source for Obfuscation:
 
  UI:
 
