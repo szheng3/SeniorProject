@@ -38,12 +38,11 @@ public class FileUploadHandler extends HttpServlet {
                         Main Obfusacate = new Main();
                         Obfusacate.obfuscation(args);
 
-
                     }
                 }
 
                 //File uploaded successfully
-                request.setAttribute("message", "File Uploaded Successfully");
+                request.setAttribute("message", "File Uploaded Successfully and Obfuscation");
             } catch (Exception ex) {
                 request.setAttribute("message", "File Upload Failed due to " + ex);
             }
