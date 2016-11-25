@@ -2,3 +2,11 @@
 # be ignored
 # http://alblue.bandlem.com/2011/03/git-tip-of-week-ignoring-build-output.html
 target/
+
+# See the site below, it says to add all files in .idea *except*
+#   workspace.xml
+#   tasks.xml
+# Moreover, it says to share all *.iml files.
+# Site: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839-How-to-manage-projects-under-Version-Control-Systems
+.idea/workspace.xml
+.idea/tasks.xml
