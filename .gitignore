@@ -1,0 +1,4 @@
+# This directory is derived from the outcome of build process, so it should
+# be ignored
+# http://alblue.bandlem.com/2011/03/git-tip-of-week-ignoring-build-output.html
+target/
