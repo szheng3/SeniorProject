@@ -8,5 +8,5 @@ target/
 #   tasks.xml
 # Moreover, it says to share all *.iml files.
 # Site: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839-How-to-manage-projects-under-Version-Control-Systems
-.idea/workspace.xml
-.idea/tasks.xml
+.idea
+.iml
