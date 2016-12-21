@@ -10,13 +10,16 @@ Usage:
 
 To import a Maven project with default settings
 
-1. On the main menu, choose File | Open.
 
-2. In the dialog box that opens, select the desired pom.xml file, and click OK. In this case the import is performed automatically, with the settings defined in the Maven Integration dialog.
+1. open in IntelliJ IDEA select File | New | Project from Existing Sources
+2. select the directory that contains the project (.porm) to be imported. Click OK
+3. On the first page of the Import Project wizard, select Maven, and click Next
+4. click next until end.
+5. click finish
 
  **Porject Task:**
 
- SetUp Maven Spring: Done--Shuai Zheng
+SetUp Maven Spring: Done--Shuai Zheng
  
 Delete Spring: Done-- Alex
 
