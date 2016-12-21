@@ -1,20 +1,27 @@
 # Branch: branchByAlex
-This branch utilizes the more recent releases of JDK, JBoss, and Javax than what is currently used on the master branch.
-On this branch, the more recent releases reduce the number of external libraries needed in our project down to only one,
-verses the more than five external dependencies of the master branch (Spring, Commons-IO, Commons-FileUtils, JUnit, JavaX).
+On this branch, I am making changes so that my installation will work with Shuai's.
 
 # SeniorProject
 Made by Team55 Advisor: Prof. Homayoun Yousefi'zadeh
 
 1.7 Java JDK *important!
 
- **Project Task:**
+Usage:
 
-SetUp Maven Spring: Done--Shuai Zheng
-Obsolete -- Alex Almanza
+To import a Maven project with default settings
+
+1. On the main menu, choose File | Open.
+
+2. In the dialog box that opens, select the desired pom.xml file, and click OK. In this case the import is performed automatically, with the settings defined in the Maven Integration dialog.
+
+ **Porject Task:**
+
+ SetUp Maven Spring: Done--Shuai Zheng
+ 
+Delete Spring: Done-- Alex
+s
 
 Upload File, GetFileName(File in the Jboss Container): Done--  Shuai Zheng
-Rewritten -- Alex Almanza
 
 Write Pro file using Java:Done--Shuai Zheng
 
