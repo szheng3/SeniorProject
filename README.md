@@ -1,3 +1,6 @@
+# Branch: branchByAlex
+On this branch, I am making changes so that my installation will work with Shuai's.
+
 # SeniorProject
 Made by Team55 Advisor: Prof. Homayoun Yousefi'zadeh
 
@@ -14,6 +17,9 @@ To import a Maven project with default settings
  **Porject Task:**
 
  SetUp Maven Spring: Done--Shuai Zheng
+ 
+Delete Spring: Done-- Alex
+s
 
 Upload File, GetFileName(File in the Jboss Container): Done--  Shuai Zheng
 
@@ -28,7 +34,7 @@ Timeout need to fix:Done--Shuai Zheng
 
  ProGuard for lib:
 
- Or other open source for Obfusition:
+ Or other open source for Obfuscation:
 
  UI:
 

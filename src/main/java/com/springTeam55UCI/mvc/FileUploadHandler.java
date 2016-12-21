@@ -39,22 +39,20 @@ public class FileUploadHandler extends HttpServlet {
                         Profile.ProFileOutApplication(request.getSession().getServletContext().getRealPath(""), new File(item.getName()).getName());
                         String[] args = new String[2];
                         args[0] = "@" + request.getSession().getServletContext().getRealPath("") + File.separator + "proguard.pro";
-                        Main Obfusacate = new Main();
-                        Obfusacate.obfuscation(args);
+//                        Main Obfusacate = new Main();
+//                        Obfusacate.obfuscation(args);
                         request.setAttribute("download", request.getSession().getServletContext().getRealPath("") + File.separator + "obfuscation_out.jar");
 
                     }
                 }
 
                 //File uploaded successfully
-                request.setAttribute("message", "File Uploaded Successfully and Obfuscation");
+                request.setAttribute("message", "File Uploaded and Obfuscation was successful");
             } catch (Exception ex) {
                 request.setAttribute("message", "File Upload Failed due to " + ex);
             }
-
         } else {
-            request.setAttribute("message",
-                    "Sorry this Servlet only handles file upload request");
+            request.setAttribute("message", "Sorry this Servlet only handles file upload request");
         }
 
 
