@@ -19,9 +19,8 @@ To import a Maven project with default settings
  SetUp Maven Spring: Done--Shuai Zheng
  
 Delete Spring: Done-- Alex
-s
 
-Upload File, GetFileName(File in the Jboss Container): Done--  Shuai Zheng
+Upload File, GetFileName(File in the Jboss Container): Done--  Shuai Zheng --revise:Alex
 
 Write Pro file using Java:Done--Shuai Zheng
 

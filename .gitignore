@@ -9,4 +9,5 @@ target/
 # Moreover, it says to share all *.iml files.
 # Site: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839-How-to-manage-projects-under-Version-Control-Systems
 .idea
-.iml
+SeniorProject.iml
+
