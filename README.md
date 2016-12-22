@@ -1,6 +1,3 @@
-# Branch: branchByAlex
-On this branch, I am making changes so that my installation will work with Shuai's.
-
 # SeniorProject
 Made by Team55 Advisor: Prof. Homayoun Yousefi'zadeh
 
