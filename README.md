@@ -1,3 +1,6 @@
+# Branch: branchByAlex
+On this branch, I am making changes so that my installation will work with Shuai's.
+
 # SeniorProject
 Made by Team55 Advisor: Prof. Homayoun Yousefi'zadeh
 
@@ -20,7 +23,7 @@ SetUp Maven Spring: Done--Shuai Zheng
  
 Delete Spring: Done-- Alex
 
-Upload File, GetFileName(File in the Jboss Container): Done--  Shuai Zheng --revise by:Alex
+Upload File, GetFileName(File in the Jboss Container): Done--  Shuai Zheng --revise:Alex
 
 Write Pro file using Java:Done--Shuai Zheng
 
