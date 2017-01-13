@@ -19,19 +19,5 @@
     </form>
 </div>
 
-<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAfooiQhsnLujyZejthyW-N46LAeibUq1s",
-    authDomain: "seniorproject-37440.firebaseapp.com",
-    databaseURL: "https://seniorproject-37440.firebaseio.com",
-    storageBucket: "seniorproject-37440.appspot.com",
-    messagingSenderId: "327192954445"
-  };
-  firebase.initializeApp(config);
-</script>
-
-
 </body>
 </html>

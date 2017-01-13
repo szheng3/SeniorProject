@@ -14,6 +14,12 @@ To import a Maven project with default settings
 4. click next until end.
 5. click finish
 
+To simulate the website:
+1. Java JDK 1.7
+    Can be downloaded from webite: 
+    http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html
+    ![Screenshot](https://cloud.githubusercontent.com/assets/23114334/21918854/6b1d50d8-d90a-11e6-9f40-eef8acdaa23f.png "JDK 7 Download")
+
  **Porject Task:**
 
 SetUp Maven Spring: Done--Shuai Zheng
