@@ -47,6 +47,7 @@ With above preparation done, simulate the website with following steps:
     ![idea_03a](https://cloud.githubusercontent.com/assets/23114334/21919910/8a92d57a-d912-11e6-9930-04006ef44fea.png)
 
 5.  Click "next"
+
     ![idea_04](https://cloud.githubusercontent.com/assets/23114334/21919931/c58e097e-d912-11e6-8822-9a404d35cdde.png)
 
 6.  Click the "+" bottom, choose "JDK"
@@ -57,9 +58,11 @@ With above preparation done, simulate the website with following steps:
     ![idea_06](https://cloud.githubusercontent.com/assets/23114334/21919952/eed99938-d912-11e6-9c19-124d4f84600f.png)
 
 8.  Click "OK"
+
     ![idea_07](https://cloud.githubusercontent.com/assets/23114334/21919969/0cc8142e-d913-11e6-9b96-fbda02c7766d.png)
 
 9.  Click "finish"
+
     ![idea_08](https://cloud.githubusercontent.com/assets/23114334/21919980/20e515f6-d913-11e6-9d35-8815033c9a4b.png)
 
 10. On the top right corner, click the second icon, press "Edit Configurations"
@@ -76,6 +79,7 @@ With above preparation done, simulate the website with following steps:
     ![idea_12](https://cloud.githubusercontent.com/assets/23114334/21920071/a6ef5792-d913-11e6-9e01-ad5328e1e229.png)
 
 13. Choose "SeniorProject:war", click "OK"
+
     ![idea_13](https://cloud.githubusercontent.com/assets/23114334/21920081/c1ce90f0-d913-11e6-97ba-89f848cde10e.png)
 
 14. Click "OK"
