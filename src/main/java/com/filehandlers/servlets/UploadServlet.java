@@ -33,9 +33,12 @@ public class UploadServlet extends HttpServlet {
                           HttpServletResponse response
     ) throws ServletException, IOException {
         // gets absolute path of the web application
-        String appPath = request.getServletContext().getRealPath("");
+        String appPath = request.getServletContext().getRealPath("/");
         // constructs path of the directory to save uploaded file
         String savePath = appPath + File.separator + SAVE_DIR;
+
+        System.out.println(savePath);
+        //String savePath = "Documents/T55UploadedFiles";
 
         // creates the save directory if it does not exists
         File fileSaveDir = new File(savePath);

@@ -17,11 +17,14 @@
 <body>
 <div style="text-align: center;">
     <h1>File Upload</h1>
-    <form method="post" action="UploadServlet"
+    <form method="post" action="upload"
           enctype="multipart/form-data">
         Select file to upload: <input type="file" name="file" size="60" /><br />
         <br /> <input type="submit" value="Upload" />
     </form>
+
 </div>
+
+
 </body>
 </html>

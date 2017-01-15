@@ -39,8 +39,14 @@ public class FileUploadHandler extends HttpServlet {
                         Profile.ProFileOutApplication(request.getSession().getServletContext().getRealPath(""), new File(item.getName()).getName());
                         String[] args = new String[2];
                         args[0] = "@" + request.getSession().getServletContext().getRealPath("") + File.separator + "proguard.pro";
-//                        Main Obfusacate = new Main();
-//                        Obfusacate.obfuscation(args);
+                        Main Obfusacate = new Main();
+                        Obfusacate.obfuscation(args);
+
+//                        String runAddr = request.getSession().getServletContext().getRealPath("");
+//                        System.out.println(runAddr);
+//                        JarRunner execute = new JarRunner();
+
+
                         request.setAttribute("download", request.getSession().getServletContext().getRealPath("") + File.separator + "obfuscation_out.jar");
 
                     }

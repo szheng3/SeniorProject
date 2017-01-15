@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<>
 <div id="result">
     <h3>${requestScope["message"]}</h3>
 
@@ -24,6 +24,13 @@
     <img border="0" src="http://publichealthconference.co/2016/wp-content/uploads/2016/01/Click-to-Download.png"
     >
 </a>
+
+
+<form method="post" action="JarRunner">
+    to run Obfuscated .jar file, click:
+    <input type="submit" value="run" />
+</form>
+
 
 </body>
 </html>

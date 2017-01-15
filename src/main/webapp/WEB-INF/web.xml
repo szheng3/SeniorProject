@@ -23,6 +23,23 @@
         <url-pattern>/UploadServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>JarRunner</servlet-name>
+        <servlet-class>com.springTeam55UCI.mvc.JarRunner</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JarRunner</servlet-name>
+        <url-pattern>/JarRunner</url-pattern>
+    </servlet-mapping>
+
+    <!--<context-param>
+        <description>Location to store uploaded file</description>
+        <param-name>file-upload</param-name>
+        <param-value>
+            c:\uploadedfile
+        </param-value>
+    </context-param>-->
+
     <session-config>
         <session-timeout>
             1440
